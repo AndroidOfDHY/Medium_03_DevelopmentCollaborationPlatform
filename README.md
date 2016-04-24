@@ -1,0 +1,2 @@
+# Medium_03_DevelopmentCollaborationPlatform
+2012 第三届全国服务外包创新创业大赛三等奖作品
