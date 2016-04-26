@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal" >
+    <FrameLayout 
+        android:layout_width="fill_parent"
+		android:layout_height="50dip"
+        >
+        <TextView
+	    android:id="@+id/projectmanagement_item_group"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:textColor="@color/red"
+	    android:layout_marginLeft="18dp"
+	    android:textSize="16dip"
+	    android:textStyle="bold" 
+	    android:text="服务外包 (A)"
+	    android:singleLine="true"
+	    android:layout_gravity="left|center_vertical"
+	    />
+		<TextView
+	    android:id="@+id/projectmanagement_item_name"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:textColor="@color/red"
+	    android:textSize="16dip"
+	    android:textStyle="bold" 
+	    android:text="B"
+	    android:singleLine="true"
+	    android:layout_gravity="center_horizontal|center_vertical"
+	    />
+		<Button
+	    android:id="@+id/projectmanagement_item_btn"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="移除"
+	    android:textColor="@color/red"
+	    android:singleLine="true"
+	    android:layout_gravity="right|center_vertical"
+	    />
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+	<FrameLayout 
+        android:layout_width="fill_parent"
+		android:layout_height="50dip"
+        >
+        <TextView
+	    android:id="@+id/personmanagement_item_name"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:textColor="@color/red"
+	    android:layout_marginLeft="18dp"
+	    android:textSize="16dip"
+	    android:textStyle="bold" 
+	    android:text="服务外包 (A)"
+	    android:singleLine="true"
+	    android:layout_gravity="left|center_vertical"
+	    />
+        <TextView
+	    android:id="@+id/personmanagement_item_account"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:textColor="@color/red"
+	    android:layout_marginLeft="18dp"
+	    android:textSize="16dip"
+	    android:textStyle="bold" 
+	    android:text="服务外包 (A)"
+	    android:singleLine="true"
+	    android:layout_marginRight="20dip"
+	    android:layout_gravity="center"
+	    />
+        <LinearLayout
+            android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:orientation="horizontal"
+	    	android:layout_gravity="right|center_vertical"
+            >
+            <Button
+		    android:id="@+id/personmanagement_item_modify"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="修改"
+		    android:textColor="@color/red"
+		    android:singleLine="true"
+		    />
+            <Button
+		    android:id="@+id/personmanagement_item_delete"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="删除"
+		    android:textColor="@color/red"
+		    android:singleLine="true"
+		    />
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    <FrameLayout
+    android:layout_width="fill_parent"
+    android:layout_height="40dip"
+    android:background="@drawable/title">
+    <TextView
+    	android:text="项目进度"
+    	android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:layout_marginTop="0dip"
+		android:layout_marginBottom="0dip"
+		android:layout_marginLeft="0dip"
+		android:textSize="20dip"
+		android:textColor="#FFFFFF"
+		android:textStyle="bold"
+		android:gravity="center">
+    </TextView>
+    </FrameLayout>
+	<FrameLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal" 
+	    >
+	    <Button
+	        android:id="@+id/chart_left"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="前一周"
+	        
+	        android:layout_gravity="left"
+	        />
+	    <Button
+	        android:id="@+id/chart_right"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="后一周"
+	        android:layout_gravity="right"
+	        />
+	    <Button
+	        android:id="@+id/chart_today"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="今天" 
+	        android:layout_gravity="center"
+	        />
+	</FrameLayout>
+	<LinearLayout android:id="@+id/chart" android:orientation="horizontal"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"/>
+</LinearLayout>

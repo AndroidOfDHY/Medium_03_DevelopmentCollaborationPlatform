@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    <FrameLayout
+    android:layout_width="fill_parent"
+    android:layout_height="40dip"
+    android:background="@drawable/title">
+    <TextView
+    	android:text="数据统计"
+    	android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:layout_marginTop="0dip"
+		android:layout_marginBottom="0dip"
+		android:layout_marginLeft="0dip"
+		android:textSize="20dip"
+		android:textColor="#FFFFFF"
+		android:textStyle="bold"
+		android:gravity="center">
+    </TextView>
+    </FrameLayout>
+    <LinearLayout
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal" 
+	    >
+	    <Button
+	        android:layout_marginLeft="80dip"
+	        android:id="@+id/statistics_all"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="统计"
+	        />
+	    <Button
+	        android:id="@+id/statistics_group"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="小组工作量统计"
+	        />
+	</LinearLayout>
+    <LinearLayout android:id="@+id/statistics_chart" android:orientation="horizontal"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"/>
+</LinearLayout>
